@@ -18,7 +18,7 @@ from random import randint
 num = int(input("Введите количество элементов в массиве: "))
 random_list = []
 for i in range(num):
-    random_list.append(randint(1, 10))
+    random_list.append(randint(1, 100))
 print("  ".join(map(str, random_list)))
 
 X = int(input('Введите заданное число X: '))
